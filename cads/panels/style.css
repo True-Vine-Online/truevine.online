@@ -1,0 +1,52 @@
+.cads-panel{
+    font-family: "Open Sans";
+    width: 40%;
+    background-color: #f5f2f9;
+    box-shadow: 5px 5px 15px #9c80b9;
+    border-radius: 15px;
+    padding: 15px
+}
+
+
+.cads-card{
+
+}
+
+.cads-button{
+
+}
+
+.cads-media{
+    width: 100%;
+}
+
+.cads-heading{
+    font-weight: bold;
+    font-size: 16pt;
+
+}
+
+.cads-body{
+
+}
+
+.cads-copy{
+    font-size: 12pt;
+}
+
+.cads-a{
+    color: #402871;
+    text-decoration: none;
+    transition: 100ms;
+}
+
+.cads-a:hover{
+    color: #9c80b9;
+    text-decoration: none;
+}
+
+.cads-a:visited{
+    color: #402871;
+    text-decoration: none;
+    transition: 100ms;
+}
