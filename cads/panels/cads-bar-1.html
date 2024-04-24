@@ -8,6 +8,9 @@
     <script src="https://truevine.online/cads/panels/js/reporttag.js" charset="utf-8"></script>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://fonts.borgcreative.com/fonts.css">
+
+    <script src="./js/cads.js"></script>
+
       <!-- Cronitor RUM -->
       <script async src="https://rum.cronitor.io/script.js"></script>
       <script>
@@ -20,7 +23,7 @@
 
 
 
-  <body style="background-color:transparent;" onload="reporttag()">
+  <body style="background-color:transparent;" onload="reporttag(), loadAd()">
 
     <div name="0001-0002" class="cads-panel" height="auto">
       <div class="cads-card">
@@ -64,23 +67,23 @@ div.desc {
 
   <script>
   let adlink1 = document.getElementById("adlink1");
-  adlink1.addEventListener("click", function () { panelbear("track", "adlink-0001-0002");
+  adlink1.addEventListener("click", function () { cronitor("track", "adlink-0001-0002");
   });
 
   let imglink1 = document.getElementById("imglink1");
-  imglink1.addEventListener("click", function () { panelbear("track", "imglink-0001-0002");
+  imglink1.addEventListener("click", function () { cronitor("track", "imglink-0001-0002");
   });
 
   let reportlink = document.getElementById("reportlink");
-  reportlink.addEventListener("click", function () { panelbear("track", "ad-reported");
+  reportlink.addEventListener("click", function () { cronitor("track", "ad-reported");
   });
 
   let adlink2 = document.getElementById("adlink2");
-  adlink2.addEventListener("click", function () { panelbear("track", "adlink-0000-0005");
+  adlink2.addEventListener("click", function () { cronitor("track", "adlink-0000-0005");
   });
 
   let imglink2 = document.getElementById("imglink2");
-  imglink2.addEventListener("click", function () { panelbear("track", "imglink-0000-0005");
+  imglink2.addEventListener("click", function () { cronitor("track", "imglink-0000-0005");
   });
 
   </script>
