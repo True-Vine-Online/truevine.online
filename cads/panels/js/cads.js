@@ -3,7 +3,7 @@ Deliver content for Truevine Online's partners with CADS (Cloud Advert1sement De
 
 To update or launch an entry, simply update the JS below!
 When adding an entry, make sure to update the "adIds" array to include its name/id!
-adIds are by the following format: POST#_CLIENT#
+adIds are by the following format: CLIENT#_POST#
 */
 
 function loadRdAd(){
