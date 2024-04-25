@@ -1,28 +1,53 @@
+/* 
+Deliver content for Truevine Online's partners with CADS (Cloud Advert1sement Delivery System)! 
+
+To update or launch an entry, simply update the JS below!
+When adding an entry, make sure to update the "adIds" array to include its name/id!
+adIds are by the following format: POST#_CLIENT#
+*/
+
 function loadRdAd(){
     var adIds = Array('0001_001', '0001_002', '0001_003');
     var adId = adIds[Math.floor(Math.random()*adIds.length)];
     console.log(adId)
 
+
+    /* CADS entry begin */
     if (adId=='0001_001'){
+        /* IMG for the CADS entry (Use root directory paths "./" or direct "https") */
+        document.getElementById("CADimg").src = './img/wdm.png'
+
+        /* CADS Content Headline */
         document.getElementById("CADheader").innerHTML = "Wave Digital Ministries (Test Ad 1)"
+        
+        /* CADS Content Body Copy */
         document.getElementById("CADbody").innerHTML = "We are merging ministry & technology."
+        
+        /* CADS Content Link (Must be same link!) */
         document.getElementById("CADa").href = "https://www.wavedm.net/"
         document.getElementById("CADa2").href = "https://www.wavedm.net/"
     }
+    /* End */
 
+    /* CADS entry begin */
     if (adId=='0001_002'){
+        document.getElementById("CADimg").src = './img/wdm.png'
         document.getElementById("CADheader").innerHTML = "Wave Digital Ministries (Test Ad 2)"
         document.getElementById("CADbody").innerHTML = "We are merging ministry & technology."
         document.getElementById("CADa").href = "https://www.wavedm.net/"
         document.getElementById("CADa2").href = "https://www.wavedm.net/"
     }
+    /* End */
 
+    /* CADS entry begin */
     if (adId=='0001_003'){
+        document.getElementById("CADimg").src = './img/wdm.png'
         document.getElementById("CADheader").innerHTML = "Wave Digital Ministries (Test Ad 3)"
         document.getElementById("CADbody").innerHTML = "We are merging ministry & technology."
         document.getElementById("CADa").href = "https://www.wavedm.net/"
         document.getElementById("CADa2").href = "https://www.wavedm.net/"
     }
+    /* End */
 }
 
 
