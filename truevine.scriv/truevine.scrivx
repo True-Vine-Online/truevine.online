@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="08CA6F0F-D724-4792-81B4-A581EADD22F8" Version="2.0" Creator="SCRMAC-3.3.1-15588" Device="Jacobs-MacBook-Pro" Author="" Modified="2024-04-22 14:03:07 -0700" ModID="6157340F-E154-40C0-AEFC-E1ACDCB4DFEA">
+<ScrivenerProject Identifier="08CA6F0F-D724-4792-81B4-A581EADD22F8" Version="2.0" Creator="SCRMAC-3.3.1-15588" Device="Jacobs-MacBook-Pro" Author="" Modified="2024-05-10 22:35:34 -0700" ModID="FED58257-F9C8-422B-9DA8-D4F982010043">
     <Binder>
         <BinderItem UUID="DE6B0E0E-5114-4494-903E-5A9C96CBAF63" Type="DraftFolder" Created="2024-04-22 13:48:40 -0700" Modified="2024-04-22 13:48:40 -0700">
             <Title>Draft</Title>
@@ -38,6 +38,16 @@
             <MetaData>
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
+            <Children>
+                <BinderItem UUID="5D9DE0B9-B3CA-435F-8BCA-5B52E45E8F09" Type="Text" Created="2024-05-06 16:00:48 -0700" Modified="2024-05-06 16:00:48 -0700">
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
         </BinderItem>
     </Binder>
     <Collections>
@@ -94,14 +104,14 @@
     </StatusSettings>
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2024-04-22 13:48:39 -0700" IgnoreDeadline="Yes">0</DraftTarget>
-        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2024-04-23 00:00:00 -0700" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="197" Characters="1262" Date="2024-04-22 13:48:39 -0700"/>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2024-05-11 00:00:00 -0700" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="0" Characters="0" Date="2024-05-10 22:35:32 -0700"/>
     </ProjectTargets>
-    <RecentWritingHistory Date="2024-04-22 13:48:39 -0700">
-        <DraftWordCount>197</DraftWordCount>
-        <DraftCharCount>1262</DraftCharCount>
+    <RecentWritingHistory Date="2024-05-10 00:00:00 -0700">
+        <DraftWordCount>0</DraftWordCount>
+        <DraftCharCount>0</DraftCharCount>
         <OtherWordCount>0</OtherWordCount>
         <OtherCharCount>0</OtherCharCount>
     </RecentWritingHistory>
-    <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"/>
+    <PrintSettings PaperSize="611.999993,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"/>
 </ScrivenerProject>
