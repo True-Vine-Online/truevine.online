@@ -15,37 +15,37 @@ function loadRdAd(){
     /* CADS entry begin */
     if (adId=='0001_001'){
         /* IMG for the CADS entry (Use root directory paths "./" or direct "https") */
-        document.getElementById("CADimg").src = './img/wdm.png'
+        document.getElementById("CADimg").src = './img/jump_cads_1.png'
 
         /* CADS Content Headline */
-        document.getElementById("CADheader").innerHTML = "Wave Digital Ministries (Test Ad 1)"
+        document.getElementById("CADheader").innerHTML = ""
         
         /* CADS Content Body Copy */
-        document.getElementById("CADbody").innerHTML = "We are merging ministry & technology."
+        document.getElementById("CADbody").innerHTML = ""
         
         /* CADS Content Link (Must be same link!) */
-        document.getElementById("CADa").href = "https://www.wavedm.net/"
-        document.getElementById("CADa2").href = "https://www.wavedm.net/"
+        document.getElementById("CADa").href = "https://jumpincamps.com"
+        document.getElementById("CADa2").href = "https://jumpincamps.com"
     }
     /* End */
 
     /* CADS entry begin */
     if (adId=='0001_002'){
-        document.getElementById("CADimg").src = './img/wdm.png'
-        document.getElementById("CADheader").innerHTML = "Wave Digital Ministries (Test Ad 2)"
-        document.getElementById("CADbody").innerHTML = "We are merging ministry & technology."
-        document.getElementById("CADa").href = "https://www.wavedm.net/"
-        document.getElementById("CADa2").href = "https://www.wavedm.net/"
+        document.getElementById("CADimg").src = './img/jump_cads_2.png'
+        document.getElementById("CADheader").innerHTML = ""
+        document.getElementById("CADbody").innerHTML = ""
+        document.getElementById("CADa").href = "https://jumpincamps.com"
+        document.getElementById("CADa2").href = "https://jumpincamps.com"
     }
     /* End */
 
     /* CADS entry begin */
     if (adId=='0001_003'){
-        document.getElementById("CADimg").src = './img/wdm.png'
-        document.getElementById("CADheader").innerHTML = "Wave Digital Ministries (Test Ad 3)"
-        document.getElementById("CADbody").innerHTML = "We are merging ministry & technology."
-        document.getElementById("CADa").href = "https://www.wavedm.net/"
-        document.getElementById("CADa2").href = "https://www.wavedm.net/"
+        document.getElementById("CADimg").src = './img/jump_cads_3.png'
+        document.getElementById("CADheader").innerHTML = ""
+        document.getElementById("CADbody").innerHTML = ""
+        document.getElementById("CADa").href = "https://jumpincamps.com"
+        document.getElementById("CADa2").href = "https://jumpincamps.com"
     }
     /* End */
 }
