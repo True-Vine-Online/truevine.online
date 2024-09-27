@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SearchIndexes Version="1.0">
     <Documents>
+        <Document ID="95DC0A67-4F67-475C-B9CC-0E9E3092958E">
+            <Title>welcome</Title>
+            <Text>Welcome to the Truevine.online development documentation!
+
+Truevine.online is the development and redirect site for truevineonline.com. This allows us as a team to develop and test products and services separate from the live product. Essentially, truevine.online is our development sandbox.
+
+So let’s get coding!</Text>
+        </Document>
         <Document ID="99037FF5-23AC-455A-A334-6328B8FA48AC">
             <Title>cads</Title>
             <Text>CADS
@@ -24,14 +32,6 @@ August 2024:
 October 2024: 
 	CADS Publisher Platform launched (Third-party sites not owned by Truevine staff)
 </Text>
-        </Document>
-        <Document ID="95DC0A67-4F67-475C-B9CC-0E9E3092958E">
-            <Title>welcome</Title>
-            <Text>Welcome to the Truevine.online development documentation!
-
-Truevine.online is the development and redirect site for truevineonline.com. This allows us as a team to develop and test products and services separate from the live product. Essentially, truevine.online is our development sandbox.
-
-So let’s get coding!</Text>
         </Document>
     </Documents>
 </SearchIndexes>
